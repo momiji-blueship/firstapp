@@ -1,10 +1,6 @@
 const express = require('express');
 const router = express.Router();
 
-//ルーティングを読み込む
-const routers = require("./routes");
-application.use(routers);
-
 //サーバーサイドの処理を読み込み
 const allPosts = require('../controllers/posts/allPosts');
 
