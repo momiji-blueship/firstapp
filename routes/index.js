@@ -3,6 +3,7 @@ const router = express.Router();
 
 //サーバーサイドの処理を読み込み
 const allPosts = require('../controllers/posts/allPosts');
+
 const createGet = require('../controllers/posts/createGet');
 const createPost = require('../controllers/posts/createPost');
 
